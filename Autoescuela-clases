@@ -1,0 +1,21 @@
+DrivingSchoolScheduler-OfflineAPKBuilder/
+├── README_APK_OFFLINE.md
+├── settings.gradle.kts
+├── build.gradle.kts
+├── .github/
+│   └── workflows/
+│       └── android.yml
+└── app/
+    ├── build.gradle.kts
+    ├── proguard-rules.pro
+    └── src/
+        └── main/
+            ├── AndroidManifest.xml
+            ├── java/com/autoscuela/scheduler/offline/MainActivity.kt
+            └── res/
+                ├── values/
+                │   ├── strings.xml
+                │   └── themes.xml
+                └── mipmap-anydpi-v26/
+                    ├── ic_launcher.xml
+                    └── ic_launcher_round.xml
